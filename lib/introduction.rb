@@ -9,7 +9,7 @@ end
 def introduction_with_language_optional(name, language)
   if(language == false)
     puts "Hi, my name is #{name} and I am learning to program in Ruby"
-  end else
+  else
     puts "Hi, my name is #{name} and I am learning to program in #{language}."
   end
 end 
